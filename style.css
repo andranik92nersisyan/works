@@ -1,0 +1,66 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: inherit;
+}
+body{
+	background: linear-gradient(to top);
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 10px auto;
+	padding: 40px 15px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 500px;
+	margin: 15px auto;
+	background-color: rgb(103, 75, 46);
+	border-radius: 10px;
+	box-shadow: 1px 2px 3px;
+}
+
+.input-field {
+	display: block;
+	width: 400px;
+	border: 1px solid rgb(43, 43, 73);
+	padding: 20px 30px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.send-btn {
+	border: none;
+	padding: 15px 35px;
+	background-color: rgb(56, 56, 83);
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color .2s;
+	border-radius: 10px;
+}
+
+.send-btn:hover {
+	background-color: rgb(255, 172, 55);
+}
+
+.send-btn:active {
+	background-color: rgb(39, 39, 56);
+}
+
+.error .input-field {
+	border:2px solid red;
+}
+
+.error-label {
+	display: block;
+	color: rgba(48, 11, 11, 0.874);
+	margin-bottom: 15px;
+	font-size: 14px;
+}
